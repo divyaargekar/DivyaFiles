@@ -1,0 +1,10 @@
+Hi, 
+I have attached cucumber driven maven framework can be executed by Junit. 
+Framework contains appmodules,pageobjects,mavenutility,stepdefinations package.
+appModules: Actions that to be perform on Element, pageObjects . 
+PageObjects: Elements on webpage which returns WebElement. 
+mavenUtility: Dependency the framework has such as Excel,csv,browserdependency,Log 
+stepDefinations: Dependency for cucumber such as Runner and Step definition file.
+Framework has following folders 
+testData: Excel sheet to take basic data and Anlytics.csv tool tip session data Resources:contains feature files.
+Framework can be Run as Cucumber feature to view the chrome driver Execution
