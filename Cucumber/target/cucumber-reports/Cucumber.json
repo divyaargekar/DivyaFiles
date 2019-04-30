@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-30T11:57:35.902Z",
+        "line": 4,
+        "name": "Get text of Tooltip and Highlighted window Sessions compare text and write results",
+        "description": "",
+        "id": "for-ajax-loaded-clickable-line-chart-points-get-the-tooltip-text-and-highlighted-window-text;get-text-of-tooltip-and-highlighted-window-sessions-compare-text-and-write-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on LineCharts AjaxLoaded data clickable points page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User mouse over tooltip element and get text of Tooltip",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click on element and session will be highlighted",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Compare text between tooltip and highlighted window Session values",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "For Ajax loaded clickable Line chart points get the tooltip text and highlighted window text",
+    "description": "",
+    "id": "for-ajax-loaded-clickable-line-chart-points-get-the-tooltip-text-and-highlighted-window-text",
+    "keyword": "Feature",
+    "uri": "file:Resources/LineChartsgettext.feature",
+    "tags": [
+      {
+        "name": "@scenario1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
