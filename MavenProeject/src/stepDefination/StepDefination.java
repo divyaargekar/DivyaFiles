@@ -49,7 +49,7 @@ public class StepDefination {
 		    System.out.println(getsessionwindowtext);
 		 }
 		 
-		 @Then("^Compare text between tooltip and highlighted window$")
+		 @Then("^Compare text between tooltip and highlighted window Session values$")
 		 public void message_displayed_Login_Successfully() throws Throwable {
 		Assert.assertEquals(tooltipsession, getsessionwindowtext);
 		System.out.println("Both values are same");
